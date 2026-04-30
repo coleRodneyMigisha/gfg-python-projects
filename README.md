@@ -37,7 +37,7 @@ Solutions are organized into branches by category. Switch to the relevant branch
 ### Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/gfg-python-projects.git
+git clone https://github.com/coleRodneyMigisha/gfg-python-projects.git
 cd gfg-python-projects
 ```
 
@@ -82,6 +82,7 @@ python <project_name>.py
 
 ## Notes
 
+- Each project folder contains a `README.md` with a brief description, the problem source link, and any setup notes specific to that project.
 - Some projects will require third-party API keys (e.g., OpenWeatherMap, Google Speech API, Twitter API). These are not included and must be configured locally.
 - Projects involving browser automation (Selenium) may require a compatible WebDriver for your browser version.
 
