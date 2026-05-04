@@ -1,0 +1,33 @@
+# requirements.txt — beginner branch
+# gfg-python-projects | https://github.com/<your-username>/gfg-python-projects
+#
+# Most beginner projects use only the Python standard library.
+# The packages below are needed only for specific projects (noted inline).
+
+# --- Voice Recorder (project 08) ---
+sounddevice
+soundfile
+
+# --- Screen Recorder (project 09) ---
+opencv-python
+
+# --- Screenshots (project 14) ---
+pyscreenshot
+
+# --- Desktop Notifier (project 15) ---
+plyer
+
+# --- Live Weather Notifications (project 16) ---
+requests
+
+# --- Keylogger (project 17) ---
+pynput
+
+# --- Convert Emoji to Text (project 07) ---
+emoji
+
+# --- Check if Two PDFs Are Identical (project 06) ---
+PyMuPDF
+
+# --- Fun Fact Generator Web App (project 21) ---
+flask
