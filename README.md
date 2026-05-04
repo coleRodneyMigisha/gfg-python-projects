@@ -1,6 +1,6 @@
 # Beginner Projects
 
-> Branch: `beginner` — Part of [gfg-python-projects](https://github.com/<your-username>/gfg-python-projects)
+> Branch: `beginner` — Part of [gfg-python-projects](https://github.com/coleRodneyMigisha/gfg-python-projects)
 
 Foundational Python projects covering core programming concepts — logic, control flow, file handling, and basic libraries. Great starting point for building confidence with Python.
 
@@ -39,7 +39,7 @@ Foundational Python projects covering core programming concepts — logic, contr
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/gfg-python-projects.git
+git clone https://github.com/coleRodneyMigisha/gfg-python-projects.git
 cd gfg-python-projects
 git checkout beginner
 pip install -r requirements.txt
