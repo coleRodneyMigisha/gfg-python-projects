@@ -1,5 +1,5 @@
 # requirements.txt — beginner branch
-# gfg-python-projects | https://github.com/<your-username>/gfg-python-projects
+# gfg-python-projects | https://github.com/coleRodneyMigisha/gfg-python-projects
 #
 # Most beginner projects use only the Python standard library.
 # The packages below are needed only for specific projects (noted inline).
