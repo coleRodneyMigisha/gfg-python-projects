@@ -6,7 +6,8 @@
 
 # --- Voice Recorder (project 08) ---
 sounddevice
-soundfile
+numpy
+lameenc
 
 # --- Screen Recorder (project 09) ---
 opencv-python
