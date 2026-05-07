@@ -4,27 +4,27 @@
 # Most beginner projects use only the Python standard library.
 # The packages below are needed only for specific projects (noted inline).
 
-# --- Voice Recorder (project 08) ---
+# --- Voice Recorder ---
 sounddevice
 numpy
 lameenc
 
-# --- Screen Recorder (project 09) ---
+# --- Screen Recorder ---
 opencv-python
 
-# --- Screenshots (project 14) ---
+# --- Screenshots ---
 pyscreenshot
 
-# --- Desktop Notifier (project 15) ---
+# --- Desktop Notifier ---
 plyer
 
-# --- Live Weather Notifications (project 16) ---
+# --- Live Weather Notifications ---
 requests
 
-# --- Keylogger (project 17) ---
+# --- Keylogger ---
 pynput
 
-# --- Convert Emoji to Text (project 07) ---
+# --- Convert Emoji to Text ---
 emoji
 
 # --- Check if Two PDFs Are Identical (project 06) ---
