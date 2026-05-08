@@ -11,6 +11,7 @@ lameenc
 
 # --- Screen Recorder ---
 opencv-python
+mss
 
 # --- Screenshots ---
 pyscreenshot
