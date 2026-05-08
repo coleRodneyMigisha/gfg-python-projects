@@ -4,6 +4,7 @@ import cv2
 import threading
 import datetime
 import time
+recording = False
 
 
 def create_frame(monitor):
@@ -13,7 +14,6 @@ def create_frame(monitor):
         frame = frame[:, :, :3]
         out.write(frame)
 
-recording = False
 def capture_loop():
     with mss.mss() as sct:
         monitor = sct.monitors[1]
@@ -21,7 +21,7 @@ def capture_loop():
             create_frame(monitor) 
 
 
-fs = 24
+fps = 6 #I used 6 frames per second because that's the number of screenshots (averagely) that my system could produce per minute... might be different for other PCs causing a slower or faster video when played back
 with mss.mss() as sct:
     monitor = sct.monitors[1]
     screen_size =  (monitor["width"], monitor["height"])
@@ -35,7 +35,7 @@ else:
     if not filename.endswith('.mp4'):
         filename += '.mp4'
 
-out = cv2.VideoWriter(filename, codec, fs, screen_size)
+out = cv2.VideoWriter(filename, codec, fps, screen_size)
 
 
 print("...press 'Enter' to start recording...")
