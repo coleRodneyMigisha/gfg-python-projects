@@ -3,7 +3,6 @@ import mss
 import cv2
 import threading
 import datetime
-import time
 recording = False
 
 
