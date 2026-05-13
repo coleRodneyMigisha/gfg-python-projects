@@ -25,11 +25,8 @@ requests
 # --- Keylogger ---
 pynput
 
-# --- Convert Emoji to Text ---
-emoji
-
 # --- Check if Two PDFs Are Identical (project 06) ---
-PyMuPDF
+hashlib
 
 # --- Fun Fact Generator Web App (project 21) ---
 flask
