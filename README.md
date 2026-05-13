@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ## Notes
 
 - Most projects have no external dependencies beyond the Python standard library.
-- A few projects require third-party libraries: `sounddevice` / `soundfile` (voice recorder), `pyscreenshot` (screenshots), `plyer` (desktop notifier), `requests` (weather notifier).
+- A few projects require third-party libraries: `sounddevice` (voice recorder), `pyscreenshot` (screenshots), `plyer` (desktop notifier), `requests` (weather notifier).
 - Run each script directly with `python <filename>.py`.
 
 ---
